@@ -1,0 +1,3 @@
+/home/vbs/VBS-Framework/Lib-Tests/opencv/CMakeFiles/rebuild_cache.dir
+/home/vbs/VBS-Framework/Lib-Tests/opencv/CMakeFiles/edit_cache.dir
+/home/vbs/VBS-Framework/Lib-Tests/opencv/CMakeFiles/DisplayImage.dir
