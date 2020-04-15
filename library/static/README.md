@@ -9,19 +9,19 @@ Information on building a static library,
 
 Building Library - static
 
-gcc -c main.c
-gcc -c calc.c
-gcc -o main calc.o main.o -lm   or   gcc -o main calc.o main.o /usr/lib/libm.a
+g++ -c main.c
+g++ -c calc.c
+gcc -o main calc.o main.o -lm
  ./main
 sqrt(100)=10
 
  build a new library using ar.
- 
+
  ar crv libcalc.a calc.o
 
 make executable from the library we just built, libcalc.a
 
- gcc -o main main.o libcalc.a -lm   
+ gcc -o main main.o libcalc.a -lm
 
 or
 
